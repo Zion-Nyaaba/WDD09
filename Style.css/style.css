@@ -64,9 +64,8 @@
     border-radius: 10px;
     margin: 10px;
    }
-   .abt-cont:hover{
-    content: url(nice\ img.jpg);
-   }
+   
+   
    .abt-cont p{
     text-align: justify;
     line-height: 1.5rem;
@@ -94,3 +93,55 @@
    .gal-cont h1{
     text-align: center;
    }
+   .testimony{
+    background-color: blanchedalmond;
+   }
+   .main-test{
+    display: flex;
+   }
+   figure{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 5px 10px 5px;
+    margin: 20px;
+    color: rgb(127, 93, 51);
+   }
+   figure img{
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+   }
+   .cont{
+    display: flex;
+    padding: 20px;
+    outline: 2px solid burlywood;
+    gap: 5%;
+   }
+   .cont-map{
+    outline: 1px solid rgb(85, 85, 51);
+    border-radius: 10px;
+   }
+   .form{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+   }
+   .form input{
+    width: 100px;
+    height: 5vh;
+    gap: 5%;
+   }
+   .form textarea{
+    height: 6vh;
+   }
+  .form button{
+    height: 40px;
+    font-weight: bold;
+    background-color: rgb(121, 81, 31);
+    color: rgb(213, 213, 52);
+    border-radius: 10px;
+    border: none;
+    width: 200px ;
+  }
+  
