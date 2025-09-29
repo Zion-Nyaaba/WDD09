@@ -61,8 +61,9 @@
     justify-content: space-around;
    }
    .abt-cont img{
-    border-radius: 10px;
-    margin: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
    }
    
    
@@ -95,6 +96,7 @@
    }
    .testimony{
     background-color: blanchedalmond;
+    text-align: center;
    }
    .main-test{
     display: flex;
@@ -121,6 +123,7 @@
    .cont-map{
     outline: 1px solid rgb(85, 85, 51);
     border-radius: 10px;
+    margin: 20px;
    }
    .form{
     display: flex;
